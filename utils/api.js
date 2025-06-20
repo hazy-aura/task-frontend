@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: process.env.BASE_API || "http://localhost:8000/api",
+  baseURL: process.env.BASE_API || "https://task-backend-bmdu.onrender.com/api",
 });
 
 export default api;
